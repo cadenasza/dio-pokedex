@@ -1,8 +1,9 @@
 # Pokedex
 
 ## Projeto do curso dio
-- Objetivo do projeto: criar uma pokedex utilizando a api de pokemon
+- Objetivo do projeto: criar uma pokedex utilizando a rest api de pokemon: POKEAPI
 - Utilizando a metodologia mobile first
+- utilizando grid layout
 
 ### TECNOLOGIAS UTILIZADAS
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)]()
