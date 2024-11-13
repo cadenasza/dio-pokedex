@@ -1,23 +1,28 @@
-@import url(./pokedex.css);
 * {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: #f6f8fc;
+    background-color: #ffffff;
 }
 
-.content{
-    padding: 1rem;
-    background: #fff;
-    height: 100vh;
+.content {
     width: 100vw;
+    min-height: 100vh;
+    padding: 1.5rem 1rem;
+    background-color: #492797;
 }
-
 .content h1{
-    margin: 0;
-    padding: 1rem;
+    text-align: center;
+    color: #fff;
 }
 
-
-
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 1500px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
